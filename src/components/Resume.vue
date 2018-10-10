@@ -2,7 +2,7 @@
     <v-container>
     <v-layout row justify-space-around id="resume-section">
         <v-flex>
-            <v-flex id="resume-title">
+            <v-flex id="resume-title" align-center>
                 <h1>RESUME</h1>
             </v-flex>
             <img id="tree" src="http://pluspng.com/img-png/fir-tree-png-black-and-white-oak-tree-2431.png" alt="">

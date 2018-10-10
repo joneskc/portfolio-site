@@ -3,6 +3,7 @@
     <TopNav />
     <AboutMe />
     <Resume />
+    <Projects />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import AboutMe from './components/AboutMe'
 import TopNav from './components/TopNav'
 import Resume from './components/Resume'
+import Projects from './components/Projects'
 
 export default {
   name: 'App',
   components: {
     AboutMe,
     TopNav,
-    Resume
+    Resume,
+    Projects
   }
 }
 </script>
