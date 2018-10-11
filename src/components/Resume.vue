@@ -2,13 +2,13 @@
     <v-container id="resume">
     <v-layout row justify-space-around id="resume-section">
         <v-flex>
-            <v-layout id="resume-title" align-center justify-center>
+            <v-layout data-aos="zoom-in" data-aos-duration="400" id="resume-title" align-center justify-center>
                 <h1>RESUME</h1>
             </v-layout>
-            <img id="tree" src="http://pluspng.com/img-png/fir-tree-png-black-and-white-oak-tree-2431.png" alt="">
+            <img id="tree" data-aos="zoom-in" data-aos-duration="600" src="http://pluspng.com/img-png/fir-tree-png-black-and-white-oak-tree-2431.png" alt="">
         </v-flex>
         <v-flex>
-            <img id="resumeImg" src="../assets/KeithJones-Resume.png" alt="Keith Jones Resume">
+            <img id="resumeImg" data-aos="zoom-in" data-aos-duration="800" src="../assets/KeithJones-Resume.png" alt="Keith Jones Resume">
         </v-flex>
     </v-layout>
     </v-container>

@@ -1,5 +1,5 @@
 <template>
-    <v-card class="card" width="350px">
+    <v-card data-aos="zoom-in" data-aos-duration="8000" class="card" width="350px">
         <v-img
         :src="project.screenshot"
         aspect-ratio="1.5"

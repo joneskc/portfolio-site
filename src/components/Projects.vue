@@ -6,10 +6,11 @@
     src="https://gdurl.com/cJ8D"
     blur="5px"
   >
-    <v-container align-content-space-around>
+    <v-container fluid align-content-space-around>
         <h1>RECENT PROJECTS</h1>
+        <br>
         <v-layout row align-center justify-space-around>
-            <Project v-for="project in projects" :project="project" :key="project.id"/>
+            <Project v-for="project in projects" :project="project" :key="project.id" data-aos="zoom-in" data-aos-duration="8000"/>
         </v-layout>
     </v-container>
   </v-parallax>

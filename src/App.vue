@@ -5,6 +5,7 @@
     <Resume />
     <Projects />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import TopNav from './components/TopNav'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     TopNav,
     Resume,
     Projects,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>

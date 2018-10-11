@@ -1,14 +1,14 @@
 <template>
     <v-layout column justify-center align-center>
-        <v-layout id="contact-header" align-center justify-center>
+        <v-layout data-aos="zoom-in" data-aos-duration="200" id="contact-header" align-center justify-center>
             <h1>CONTACT ME</h1>
         </v-layout>
         <v-layout class="container" align-center justify-space-around>
-            <v-icon size="75" color="rgb(99, 100, 119)" @click="navToGithub">fab fa-github</v-icon>
+            <v-icon data-aos="zoom-in" data-aos-duration="400" size="75" color="rgb(99, 100, 119)" @click="navToGithub">fab fa-github</v-icon>
 
-            <v-icon size="75" color="rgb(76, 97, 115)" @click="navToLinkedIn">fab fa-linkedin</v-icon>
+            <v-icon data-aos="zoom-in" data-aos-duration="600" size="75" color="rgb(76, 97, 115)" @click="navToLinkedIn">fab fa-linkedin</v-icon>
 
-            <v-icon size="75" color="rgb(170, 161, 138)" @click="emailMe">far fa-envelope</v-icon>
+            <v-icon data-aos="zoom-in" data-aos-duration="800" size="75" color="rgb(170, 161, 138)" @click="emailMe">far fa-envelope</v-icon>
         </v-layout>
     </v-layout>
 </template>

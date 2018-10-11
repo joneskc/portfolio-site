@@ -3,9 +3,13 @@
 import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
+
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 Vue.use(Vuetify, {
   iconfont: 'fa'
@@ -15,6 +19,9 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
+  created () {
+    AOS.init()
+  },
   el: '#app',
   components: { App },
   template: '<App/>'
