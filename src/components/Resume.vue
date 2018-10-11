@@ -30,7 +30,7 @@ export default {
     width: 200px;
     border-radius: 50%;
     margin-top: 1em;
-    margin-left: 22em;
+    margin-left: 25em;
     background-color: rgb(99, 100, 119);
 }
 #resumeImg {
