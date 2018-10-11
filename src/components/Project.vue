@@ -1,26 +1,22 @@
 <template>
-    <v-layout>
-        <v-flex xs12 sm6 offset-sm3>
-            <v-card width="300px">
-                <v-img
-                src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-                aspect-ratio="2.75"
-                ></v-img>
+    <v-card class="card" width="350px">
+        <v-img
+        :src="project.screenshot"
+        aspect-ratio="1.5"
+        ></v-img>
 
-                <v-card-title primary-title>
-                <div>
-                    <h3 class="headline mb-0">{{project.title}}</h3>
-                    <div>{{project.description}}</div>
-                </div>
-                </v-card-title>
+        <v-card-title primary-title>
+        <div>
+            <h3 class="headline mb-0">{{project.title}}</h3>
+            <div>{{project.description}}</div>
+        </div>
+        </v-card-title>
 
-                <v-card-actions>
-                <v-btn flat color="orange">Source Code</v-btn>
-                <v-btn flat color="orange">Deployed Site</v-btn>
-                </v-card-actions>
-            </v-card>
-        </v-flex>
-    </v-layout>
+        <v-card-actions justify-space-between>
+        <v-btn flat color="orange" :href="project.sourceCode" target="_blank">Source Code</v-btn>
+        <v-btn flat left color="orange" :href="project.deployedSite" target="_blank">Deployed Site</v-btn>
+        </v-card-actions>
+    </v-card>
 </template>
 
 <script>
@@ -30,5 +26,8 @@ export default {
 </script>
 
 <style>
+.card {
+    box-shadow: 5px 5px 5px #1f2225;
+}
 
 </style>
