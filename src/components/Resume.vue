@@ -1,14 +1,14 @@
 <template>
-    <v-container>
+    <v-container id="resume">
     <v-layout row justify-space-around id="resume-section">
         <v-flex>
-            <v-flex id="resume-title" align-center>
+            <v-layout id="resume-title" align-center justify-center>
                 <h1>RESUME</h1>
-            </v-flex>
+            </v-layout>
             <img id="tree" src="http://pluspng.com/img-png/fir-tree-png-black-and-white-oak-tree-2431.png" alt="">
         </v-flex>
         <v-flex>
-            <img id="resume" src="../assets/KeithJones-Resume.png" alt="Keith Jones Resume">
+            <img id="resumeImg" src="../assets/KeithJones-Resume.png" alt="Keith Jones Resume">
         </v-flex>
     </v-layout>
     </v-container>
@@ -33,7 +33,7 @@ export default {
     margin-left: 22em;
     background-color: rgb(99, 100, 119);
 }
-#resume {
+#resumeImg {
     max-height: 1000px;
 }
 #tree {

@@ -1,13 +1,17 @@
 <template>
   <v-parallax
+    id="projects"
     dark
     height="700"
     src="https://gdurl.com/cJ8D"
     blur="5px"
   >
-    <v-layout row align-center justify-space-around>
-        <Project v-for="project in projects" :project="project" :key="project.id"/>
-    </v-layout>
+    <v-container align-content-space-around>
+        <h1>RECENT PROJECTS</h1>
+        <v-layout row align-center justify-space-around>
+            <Project v-for="project in projects" :project="project" :key="project.id"/>
+        </v-layout>
+    </v-container>
   </v-parallax>
 </template>
 

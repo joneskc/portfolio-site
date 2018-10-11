@@ -1,5 +1,6 @@
 <template>
   <v-parallax
+    id="about"
     dark
     height="600"
     src="https://wallpaper.wiki/wp-content/uploads/2017/06/Pictures-Download-Hipster-Backgrounds.jpg"
@@ -47,7 +48,7 @@ h3 {
   border-radius: 50%;
   max-height: 200px;
   max-width: 200px;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 </style>
